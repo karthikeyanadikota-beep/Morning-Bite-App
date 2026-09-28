@@ -1,0 +1,6 @@
+{
+  "name": "MorningBite - Healthy Food Home & Office Delivery",
+  "description": "Healthy, fresh, and affordable breakfast and lunch home delivery for employees, students, and busy working professionals. Freshly prepared every morning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
