@@ -132,6 +132,12 @@ export const Header: React.FC = () => {
           >
             About Us
           </button>
+          <button 
+            onClick={() => window.openMorningBiteChat && window.openMorningBiteChat()}
+            className="hover:text-emerald-700 font-bold transition-colors whitespace-nowrap flex items-center gap-1 text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200"
+          >
+            <span>Ask AI 🤖</span>
+          </button>
         </nav>
 
         {/* Zone 3: Search, Favorites, Cart & User Action */}

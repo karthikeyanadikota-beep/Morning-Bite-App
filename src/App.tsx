@@ -16,6 +16,7 @@ import { ReviewsSection } from './components/ReviewsSection';
 import { AuthModal } from './components/AuthModal';
 import { ProfileDrawer } from './components/ProfileDrawer';
 import { MobileBottomNav } from './components/MobileBottomNav';
+import { N8nChatWidget } from './components/N8nChatWidget';
 import { Footer } from './components/Footer';
 import { CheckCircle2, RotateCcw } from 'lucide-react';
 
@@ -119,6 +120,7 @@ const MainContent: React.FC = () => {
       <OrderConfirmationModal />
       <AuthModal />
       <ProfileDrawer />
+      <N8nChatWidget />
 
       {/* Toast Notification Bar */}
       {notification && (
